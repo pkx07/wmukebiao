@@ -33,7 +33,7 @@
 5. 浏览器会依次下载包含课程信息的 **.zip 压缩包** 文件到你的电脑或手机。
 
 ### 第二步：上传转换
-1. 打开本工具官网：[https://wmukebiao.vercel.app/](https://wmukebiao.vercel.app/)。打不开可以尝试[https://wmukebiao.onrender.com/](https://wmukebiao.onrender.com/)。
+1. 打开本工具官网：[https://wmukebiao.vercel.app/](https://wmukebiao.vercel.app/)。打不开可以尝试：[https://wmukebiao.onrender.com/](https://wmukebiao.onrender.com/)。
 2. 由于本工具后端部署在Render免费服务上，访问时可能会重新唤醒服务而不是立即打开界面，请耐心等待一段时间。
 3. 点击 **“选择ZIP文件”** 按钮，或者直接把刚才下载的 多个`.zip` 文件拖拽到网页中间的框框里。如果上传了非标准正方教务系统格式的文件，可能会出现解析错误。
 4. 看到文件列表出现后，点击绿色的 **“开始处理”** 按钮。
