@@ -15,6 +15,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let selectedFiles = [];
 
+    // Warm up the Render backend (Free Tier spins down after inactivity)
+    // Send a lightweight request to wake it up as soon as the frontend loads
+    fetch('https://wmukebiao.onrender.com/', { method: 'GET' })
+        .then(() => console.log('Backend woken up'))
+        .catch(err => console.log('Backend wake-up ping sent'));
+
     // Drag and Drop Events
     ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
         dropZone.addEventListener(eventName, preventDefaults, false);

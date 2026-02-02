@@ -1,0 +1,8 @@
+{
+  "name": "wmukebiao",
+  "installCommand": "",
+  "buildCommand": "",
+  "assets": {
+    "directory": "./frontend"
+  }
+}
